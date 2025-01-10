@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <title>Sin</title>
+
+    <!-- Recommended meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <!-- PyScript CSS -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.10.2/core.css">
+
+    <!-- This script tag bootstraps PyScript -->
+    <script type="module" src="https://pyscript.net/releases/2024.10.2/core.js"></script>
+</head>
+<body>
+    <div id = "terminal">
+        <script id = "terminal" type="py" terminal worker>
+            from math import  *
+            from time import *
+
+            x = 1
+            while(not x==0):
+                for i in range(100):
+                    print(f"{" "*round(sin((i/100)*2 * pi)*60+100)}yor mum")
+                    sleep(.03)
+        </script>
+    </div>
+    
+
+</body>
+</html>
